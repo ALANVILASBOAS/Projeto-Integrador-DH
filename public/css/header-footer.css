@@ -1,0 +1,54 @@
+/* 
+    Arquivo nescessario para o uso do header/footer
+    em outras páginas
+*/
+
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 16px;
+
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+
+    font-size: 0.8rem;
+    font-family: var(--font-poppins);
+    font-weight: 400;
+
+    padding: 16px;
+}
+
+.redes-sociais {
+    color: var(--branco);
+    text-decoration: none;
+
+    font-size: 1.4rem;
+    padding: 8px;
+}
+
+/* Menu Fixo */
+.menuFixo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--cinza);
+
+    width: 100%;
+    padding: 10px 16px;
+}
+
+.menuFixo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+    color: var(--preto);
+    text-decoration: none;
+}
